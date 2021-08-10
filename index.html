@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title> Lopputyö - Hääsivu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/tyyli.css">
+</head>
+
+<!--Navigointipalkki-->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-expand-md fixed-top">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+        aria-expanded="false" aria-label="Toggle navigation"> 
+        <span class="navbar-toggler-icon"></span> 
+        </button> 
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+            <ul class="navbar-nav mx-auto"> 
+                <li class="nav-item"> 
+                    <a class="nav-link active" aria-current="page" href="#">Etusivu <span class="sr-only"> (nykyinen)</span></a> 
+                </li> 
+                <li class="nav-item">         
+                    <a class="nav-link" href="ilmoittautuminen.html">Ilmoittautuminen</a> 
+                </li> 
+                <li class="nav-item">         
+                  <a class="nav-link" href="lahjalista.html">Lahjalista</a> 
+               </li> 
+               <li class="nav-item"> 
+                <a class="nav-link" href="valokuvia.html">Valokuvia</a>      
+            </li>              
+            </ul>         
+        </div>      
+    </nav> 
+
+<!-- Info + kuvat -->
+
+<div class="jumbotron" id="jumbo">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4"><img src="kuvat/pysty1.jpg" alt="Sveitsi"></div>
+            <div class="col-sm-4">
+                <h1>Tervetuloa!</h1><br>
+                <p>Tule juhlistamaan hetkeä, jolloin sanomme tahdon toisillemme. Vihkitilaisuus pidetään Hämeenlinnan kirkossa,
+                    hääjuhla Vanajanlinnassa. Pukukoodi juhlava. Muistathan jättää valkoisen morsiamelle. Lemmikit eivät ole valitettavasti 
+                    tervetulleita tähän tilaisuuteen.</p><br><br>
+                <p><b>18.8.2022</b><br>
+                <p>Vihkitilaisuus klo 12-13<br>
+                    Kirkkorinne 2, 13100 Hämeenlinna <br>
+                    Hääjuhla klo 14-><br>
+                    Vanajanlinnantie 476, 13330 Harviala</p>
+            </div>
+            <div class="col-sm-4"><img src="kuvat/pysty5.jpg" alt="Ravintola"></div>
+        </div> 
+    </div>
+</div>
+
+<!-- Karuselli -->
+
+    <div id="demo" class="carousel slide" data-ride="carousel" data-interval="3000" data-wrap="true">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+                <img src="kuvat/IMG_20201218_172004.jpg" alt="Sveitsissä">
+                <div class="carousel-caption">
+                    <h4>Sveitsissä</h4>
+                    <p>Skool!</p>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <img src="kuvat/IMG_20210509_160625.jpg" alt="Prismassa">
+            <div class="carousel-caption">
+                <h3>Prismassa</h3>
+                <p>Jäätelö maistuu</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+                <img src="kuvat/IMG_20210603_182210.jpg" alt="Uimalassa">
+                <div class="carousel-caption">
+                    <h3>Uimalassa</h3>
+                    <p>Mukava kesäpäivä</p>
+                </div>
+          </div>
+            <div class="carousel-item">
+                <img src="kuvat/IMG_20210514_213356.jpg" alt="Simpukka">
+                <div class="carousel-caption">
+                    <h3>Kotona</h3>
+                    <p>Parisuhde viikonloppu</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="kuvat/IMG_20210727_195455.jpg" alt="Simpukka">
+                <div class="carousel-caption">
+                    <h3>Aulangolla</h3>
+                    <p>Kajakoimassa</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          
+        </a>
+      </div>
+
+<!-- Videoiden välilehdet-->
+
+     <div class="container" id="Videot">
+
+        <!-- Nav tabs --></div>
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#kirkko"> Hämeenlinnan kirkko</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#vanajanlinna">Vanajanlinna</a>
+          </li>
+        </ul>
+      
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id="kirkko" class="container tab-pane active"><br>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sl9QsKgXzus"></iframe>
+            </div>
+          </div>
+          <div id="vanajanlinna" class="container tab-pane fade"><br>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jgsO9e8SImA"></iframe>
+            </div>
+          </div>
+        </div>
+  </div>
+
+  <footer> Marika Stenberg 0503622635 / Frans Suokas 0402933753</footer>
+
+
+</body>
+
+</html>
