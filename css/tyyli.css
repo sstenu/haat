@@ -1,0 +1,154 @@
+.navbar {
+    background-color:lightpink ;
+    font-family: 'Dancing Script', cursive;  
+    font-size: large;   
+}
+
+.navbar .navbar-brand, .navbar .navbar-text{
+    color: hsl(0, 0%, 99%);
+}
+
+.navbar .nav-link{
+    color:rgb(255, 255, 255);
+}
+
+
+.nav-item:hover .nav-link{
+    color: rgb(252, 120, 186);
+}
+
+.nav-link.active {
+    color:deeppink;
+}
+
+.navbar .navbar-toggler-icon {   
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(210,105,50)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+
+body{
+    position: relative;
+    font-family:"calibri";
+}
+
+@media (min-width:800px){
+    #demo {
+        margin-top: 4%;
+        margin-left: 20%;
+        margin-right: 20%;
+    
+    }
+}
+
+
+.carousel-inner img{
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-control-prev-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='coral' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+} 
+
+.carousel-control-next-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='coral' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+@media (max-width:600px){
+    .carousel-caption{
+        display: none;
+    }
+}
+
+#jumbo {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.container img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20%;
+}
+
+.teksti_keskelle{
+    text-align: center;
+}
+
+.btn-link{
+    color:darkgoldenrod;
+}
+
+
+#Videot{
+    margin-top: 30px;
+}
+
+.table {
+    margin-top: 40px;
+}
+
+
+label{
+    width: 8em;
+    display:inline-block;
+    margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+
+    #lomake input{
+     width: 100%;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-right: 10px;
+     height: auto;
+    } 
+
+    #lomake {
+        margin-right: 6em;
+        margin-left: 6em;
+    }
+}
+@media (min-width:801px){
+    #lomake {
+        text-align: center;
+    }
+}
+
+#lahjalista {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#lomake2{
+    text-align: center;
+}
+
+.ilm_lomake{
+    padding-left: 23%;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+#ilm_otsikko{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.val_otsikko{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:lightpink;
+    color: white;
+    margin-top: 30px;
+  }
+
+#ilm_footer{
+    clear:left
+}
+
